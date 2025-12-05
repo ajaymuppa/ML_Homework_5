@@ -1,8 +1,16 @@
+---
+
 # MachineLearning_HomeAssignment5
+
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.26%2B-orange.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)
 
 **University of Central Missouri**
 **Course:** CS5710 — Machine Learning
 **Semester:** Fall 2025
+
+---
 
 ## 👤 Student Information
 
@@ -12,101 +20,120 @@
 
 ---
 
-## 📌 Overview
+## 📚 Table of Contents
 
-This repository contains my solutions for **Home Assignment 5**, which is divided into two major components:
-
-1. **Part A — Short-Answer Questions**
-   Focused on fundamental and ethical concepts in modern machine learning and deep learning (Transformers, Attention, Dataset Bias, AI Harms, etc.).
-
-2. **Part B — Coding Tasks**
-   Hands-on implementation of key Transformer components using **NumPy** and **PyTorch**.
+1. [Overview](#overview)
+2. [Google Colab Notebook](#google-colab-notebook)
+3. [Part A — Short-Answer Summary](#part-a--short-answer-summary)
+4. [Part B — Coding Tasks](#part-b--coding-tasks)
+5. [Dependencies](#dependencies)
+6. [Submission Checklist](#submission-checklist)
 
 ---
 
-## 📝 Part A — Short-Answer Component
+## 📌 Overview
 
-Part A provides detailed explanations for the following topics:
+This repository contains my work for **Home Assignment 5**, which includes:
+
+* **Part A:** Written short-answer explanations on core ML/AI topics
+* **Part B:** Coding implementations of Transformer components using NumPy and PyTorch
+
+The goal of this assignment is to understand attention, positional encoding, multi-head attention, and ethical considerations in AI—along with practical hands-on coding.
+
+---
+
+## 🔗 Google Colab Notebook
+
+Click below to view or execute the assignment notebook:
+
+👉 **Colab Notebook:**
+**[https://colab.research.google.com/drive/1Xh4etPEe4R7S1ODahFcKZ-6Gk66oG_5I?usp=sharing](https://colab.research.google.com/drive/1Xh4etPEe4R7S1ODahFcKZ-6Gk66oG_5I?usp=sharing)**
+
+---
+
+## 📝 Part A — Short-Answer Summary
+
+Part A covers detailed theory on:
 
 ### 🔹 Positional Encoding
 
-* Why Transformers require positional information
-* Qualities of effective encoding schemes
-* Unitary / norm-preserving positional matrices
+* Why Transformers need positional information
+* Properties of good encoding schemes
+* Norm-preserving positional matrices
 
 ### 🔹 Attention Mechanism
 
-* Definition and intuition behind attention scores
-* Role of softmax in attention
-* Computation of context vectors
+* How attention scores are computed
+* Role of softmax in normalization
+* Context vector formation
 
 ### 🔹 Multi-Head Attention
 
-* Why multiple attention heads are beneficial
-* Subspace projections and parallel attention
-* Importance of concatenation + linear projection
+* Benefits of having multiple attention heads
+* Independent subspace projections
+* Why concatenation + linear transformation is necessary
 
 ### 🔹 Ethics in AI
 
-* Difference between ethics, laws, and personal feelings
-* Utilitarian vs. deontological decision-making
-* Why a universal ethical theory for AI is difficult
+* Distinction between ethics, law, and personal feelings
+* Utilitarian vs. deontological frameworks
+* Why a single ethical standard for AI is difficult
 
 ### 🔹 AI Harms
 
 * Representational vs. allocational harms
 * Real-world examples
-* Why representational harms are harder to detect
+* Measurement difficulties
 
 ### 🔹 Dataset Bias
 
-* Sources of bias
-* Issues with underrepresented groups
-* How machine learning models amplify bias
+* Causes of dataset bias
+* Underrepresentation issues
+* Bias amplification during training
 
-### 🔹 Security and Privacy
+### 🔹 Security & Privacy
 
-* Data poisoning
-* Model memorization
-* Model extraction / model stealing
+* Data poisoning attacks
+* Model memorization risks
+* Model extraction / stealing
 
 ---
 
-## 💻 Part B — Coding Component
+## 💻 Part B — Coding Tasks
 
 ### **Q1 — Scaled Dot-Product Attention (NumPy)**
 
-Implements:
+Includes:
 
 * Stable softmax
 * Scaled dot-product attention
 * Optional masking
-* Unit tests verifying correct tensor shapes
+* Output shape tests
 
 ### **Q2 — Transformer Encoder Block (PyTorch)**
 
-Implements:
+Includes:
 
 * Manual Multi-Head Self-Attention
 * Feed-Forward Network
-* Layer Normalization
+* Add & Norm layers
 * Residual connections
 * Dropout
 * Input/output shape verification
 
-The code is fully commented for clarity and educational value.
+All scripts are fully commented for clarity and readability.
 
 ---
 
 ## ⚙️ Dependencies
 
-Install required libraries:
+Install required packages:
 
 ```bash
 pip install numpy torch
 ```
 
-**Versions used during development:**
+**Development environment:**
 
 * Python **3.10**
 * NumPy **1.26+**
@@ -114,12 +141,13 @@ pip install numpy torch
 
 ---
 
-## 📤 Submission Notes
+## 📤 Submission Checklist
 
-✔ All code is fully commented
+✔ Fully commented Python code
 ✔ Student details included
-✔ README thoroughly documents the entire assignment
-✔ Repository contains both Part A (written) and Part B (coding)
-✔ Test outputs included for verification
+✔ README with complete documentation
+✔ Both Part A and Part B included
+✔ Output verification tests added
+✔ Google Colab notebook linked
 
 ---
