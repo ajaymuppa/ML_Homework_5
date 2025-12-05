@@ -1,140 +1,129 @@
+Below is an improved, polished, and professional **README.md** version based on your content, with better structure, clarity, formatting, and flow. You can copy–paste it directly into your repository.
+
+---
+
 # MachineLearning_HomeAssignment5
 
-University of Central Missouri
+**University of Central Missouri**
+**Course:** CS5710 — Machine Learning
+**Semester:** Fall 2025
 
-Student Information
+## 👤 Student Information
 
-Name: AJAY MUPPA
-Student ID: 700769264
-Course: CS5710 — Machine Learning
-Semester: Fall 2025
-Assignment: Home Assignment 5
+* **Name:** AJAY MUPPA
+* **Student ID:** 700769264
+* **Assignment:** Home Assignment 5
 
-📌 Overview
+---
 
-This repository contains my solutions for Home Assignment 5, which covers two main components:
+## 📌 Overview
 
-Part A — Short-Answer Questions
-Focused on Transformers, Positional Encoding, Attention Mechanisms, Multi-Head Attention, Ethics in AI, Dataset Bias, and AI-related Harms.
+This repository contains my solutions for **Home Assignment 5**, which is divided into two major components:
 
-Part B — Coding Tasks
+1. **Part A — Short-Answer Questions**
+   Focused on fundamental and ethical concepts in modern machine learning and deep learning (Transformers, Attention, Dataset Bias, AI Harms, etc.).
 
-Q1: Implementation of Scaled Dot-Product Attention using NumPy
+2. **Part B — Coding Tasks**
+   Hands-on implementation of key Transformer components using **NumPy** and **PyTorch**.
 
-Q2: Implementation of a Simple Transformer Encoder Block using PyTorch
+---
 
-Includes Multi-Head Self-Attention, Feed-Forward Network, LayerNorm, Residuals, and Shape Verification
+## 📝 Part A — Short-Answer Component
 
-All code is fully commented as required and structured for clarity.
+Part A provides detailed explanations for the following topics:
 
-📝 Part A — Short Answer Summary
+### 🔹 Positional Encoding
 
-The written answers include detailed explanations on:
+* Why Transformers require positional information
+* Qualities of effective encoding schemes
+* Unitary / norm-preserving positional matrices
 
-✔ Positional Encoding
+### 🔹 Attention Mechanism
 
-Why Transformers need positional encodings
+* Definition and intuition behind attention scores
+* Role of softmax in attention
+* Computation of context vectors
 
-Requirements for good encoding schemes
+### 🔹 Multi-Head Attention
 
-Unitary & norm-preserving positional matrices
+* Why multiple attention heads are beneficial
+* Subspace projections and parallel attention
+* Importance of concatenation + linear projection
 
-✔ Attention Mechanism
+### 🔹 Ethics in AI
 
-Definition of attention scores
+* Difference between ethics, laws, and personal feelings
+* Utilitarian vs. deontological decision-making
+* Why a universal ethical theory for AI is difficult
 
-Role of softmax
+### 🔹 AI Harms
 
-Computation of context vectors
+* Representational vs. allocational harms
+* Real-world examples
+* Why representational harms are harder to detect
 
-✔ Multi-Head Attention
+### 🔹 Dataset Bias
 
-Advantages of multiple heads
+* Sources of bias
+* Issues with underrepresented groups
+* How machine learning models amplify bias
 
-Subspace projection
+### 🔹 Security and Privacy
 
-Why concatenation + linear projection is needed
+* Data poisoning
+* Model memorization
+* Model extraction / model stealing
 
-✔ Ethics in AI
+---
 
-Difference between ethics, laws, and feelings
+## 💻 Part B — Coding Component
 
-Utilitarian vs Deontological reasoning in AI decisions
+### **Q1 — Scaled Dot-Product Attention (NumPy)**
 
-Why no single ethical theory dominates
+Implements:
 
-✔ AI Harms
+* Stable softmax
+* Scaled dot-product attention
+* Optional masking
+* Unit tests verifying correct tensor shapes
 
-Allocational vs representational harms
+### **Q2 — Transformer Encoder Block (PyTorch)**
 
-Real-world examples
+Implements:
 
-Why representation harms are harder to measure
+* Manual Multi-Head Self-Attention
+* Feed-Forward Network
+* Layer Normalization
+* Residual connections
+* Dropout
+* Input/output shape verification
 
-✔ Dataset Bias
+The code is fully commented for clarity and educational value.
 
-Sources of bias
+---
 
-Underrepresented groups
+## ⚙️ Dependencies
 
-Bias amplification
+Install required libraries:
 
-✔ Security & Privacy
-
-Data poisoning
-
-Model memorization
-
-Model stealing
-
-💻 Part B — Coding
-Q1 — Scaled Dot-Product Attention (NumPy)
-
-This script implements:
-
-Stable softmax
-
-Scaled dot-product attention
-
-Optional masking
-
-Test demonstrating correct output shapes
-
-Q2 — Transformer Encoder Block (PyTorch)
-
-This script includes:
-
-Multi-Head Self-Attention implemented manually
-
-Feed-Forward Network
-
-Add & Norm layers
-
-Residual connections
-
-Dropout
-
-Shape verification test
-
-⚙️ Dependencies
-
-Ensure you have the following installed:
-
-Python Libraries
+```bash
 pip install numpy torch
+```
 
-Versions used during development:
+**Versions used during development:**
 
-Python 3.10
+* Python **3.10**
+* NumPy **1.26+**
+* PyTorch **2.0+**
 
-NumPy 1.26+
+---
 
-PyTorch 2.0+
+## 📤 Submission Notes
 
-📤 Submission Notes
-
-✔ Code is fully commented
+✔ All code is fully commented
 ✔ Student details included
-✔ README thoroughly explains all components
-✔ GitHub repo contains both Part A and Part B
-✔ Output tests provided
+✔ README thoroughly documents the entire assignment
+✔ Repository contains both Part A (written) and Part B (coding)
+✔ Test outputs included for verification
+
+---
