@@ -1,7 +1,3 @@
-Below is an improved, polished, and professional **README.md** version based on your content, with better structure, clarity, formatting, and flow. You can copy–paste it directly into your repository.
-
----
-
 # MachineLearning_HomeAssignment5
 
 **University of Central Missouri**
