@@ -4,8 +4,8 @@ University of Central Missouri
 
 Student Information
 
-Name: CHINTALA SAI SRAVAN
-Student ID: 700773836
+Name: AJAY MUPPA
+Student ID: 700769264
 Course: CS5710 — Machine Learning
 Semester: Fall 2025
 Assignment: Home Assignment 5
